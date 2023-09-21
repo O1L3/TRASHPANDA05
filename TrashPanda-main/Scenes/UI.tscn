@@ -1,0 +1,45 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://Graphic/Health2.png" type="Texture" id=2]
+[ext_resource path="res://Scripts/UI.gd" type="Script" id=3]
+[ext_resource path="res://Graphic/healthbar.png" type="Texture" id=4]
+[ext_resource path="res://Graphic/Health.png" type="Texture" id=5]
+[ext_resource path="res://Graphic/scoreIcon.png" type="Texture" id=6]
+
+[node name="Control" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 3 )
+
+[node name="healthbar" type="TextureProgress" parent="."]
+margin_left = 60.0
+margin_top = 60.0
+margin_right = 300.0
+margin_bottom = 110.0
+texture_under = ExtResource( 2 )
+texture_progress = ExtResource( 5 )
+
+[node name="Healthbar" type="Sprite" parent="."]
+position = Vector2( 240, 90 )
+texture = ExtResource( 4 )
+
+[node name="Phaze" type="TextureRect" parent="."]
+margin_left = 300.0
+margin_top = 15.0
+margin_right = 380.0
+margin_bottom = 95.0
+texture = ExtResource( 6 )
+
+[node name="Phaze2" type="TextureRect" parent="."]
+margin_left = 335.0
+margin_top = 15.0
+margin_right = 415.0
+margin_bottom = 95.0
+texture = ExtResource( 6 )
+
+[node name="Phaze3" type="TextureRect" parent="."]
+margin_left = 370.0
+margin_top = 15.0
+margin_right = 450.0
+margin_bottom = 95.0
+texture = ExtResource( 6 )

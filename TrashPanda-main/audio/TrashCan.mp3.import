@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/TrashCan.mp3-ab4328f373df20f580549a2df90ae546.mp3str"
+
+[deps]
+
+source_file="res://audio/TrashCan.mp3"
+dest_files=[ "res://.import/TrashCan.mp3-ab4328f373df20f580549a2df90ae546.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

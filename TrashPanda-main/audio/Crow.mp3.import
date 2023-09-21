@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Crow.mp3-2b09904c49c6512ac9558cb7b22b4761.mp3str"
+
+[deps]
+
+source_file="res://audio/Crow.mp3"
+dest_files=[ "res://.import/Crow.mp3-2b09904c49c6512ac9558cb7b22b4761.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

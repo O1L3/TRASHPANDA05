@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/PlaceholderMusic.mp3-a7dd63648f16bc0d186b8504f737617e.mp3str"
+
+[deps]
+
+source_file="res://audio/PlaceholderMusic.mp3"
+dest_files=[ "res://.import/PlaceholderMusic.mp3-a7dd63648f16bc0d186b8504f737617e.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0
